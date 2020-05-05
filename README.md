@@ -23,3 +23,5 @@ alias ll='ls -lhA'
 alias lsl='ls -lhFA | less'
 # Get Public IP
 alias myip='curl http://ipecho.net/plain; echo'
+### Grep IP
+alias grepip='grep -oE "\b([0-9]{1,3}\.){3}[0-9]{1,3}\b"'
